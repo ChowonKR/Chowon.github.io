@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Momentum Final</title>
+
+  
+</head>
+<body>
+
+     <!--로컬 스토리지를 이용한 로그인-->
+     <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+        <input type="submit" value="Log In"/>
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+
+    <!--로컬 스토리지를 이용한 투두리스트-->
+    <form id="todo-form">
+        <input type="text" placeholder="To-Do List">
+    </form>
+    <ul id="todo-list"></ul>
+
+    <!--실시간 시계-->
+    <form class="center-text">
+        <h2 id="clock"></h2>
+        <!--날씨와 위치-->
+        <div id="weather" class="weather-text">
+            <span></span>
+            <span></span>
+        </div><br><br><br><br><br><br>
+        <!--명언 내용-->
+    <div id="quote" class="quote-text">
+        <span></span><br>
+        <span></span>
+    </div>
+
+    </form>
+
+   
+     
+    
+
+
+
+
+
+    
+    <script src="js/clock-form.js"></script>
+    <script src="js/login-form.js"></script>
+    <script src="js/todo-form.js"></script>
+    <script src="js/weather-form.js"></script>
+    <script src="js/quotes-form.js"></script>
+    <script src="js/background-form.js"></script>
+</body>
+</html>
